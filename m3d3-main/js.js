@@ -95,10 +95,10 @@ function loadData() {
 
 // Hide Card
 
-function hideCard(inf) {
-  const card = inf.parentElement.parentElement.parentElement.parentElement.parentElement
+function hideCard(inf) { // passing the element as a parameter 
+  const card = inf.parentElement.parentElement.parentElement.parentElement.parentElement // targetting the card by assigning the element (the button itself) to 5 parentElements as it is contained within 5 divs
   
-  card.remove()
+  card.remove() // removing the card
 }
 
 // SEARCH
