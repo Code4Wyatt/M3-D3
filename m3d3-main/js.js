@@ -123,7 +123,7 @@ function searchIt(value) {
 function alertM(m){
     let body = document.querySelector('.jumbotron .container')
     body.innerHTML += `
-    <div class="alert alert-secondary  w-50 text-center" role="alert" style="margin: auto !important; transition: 1s">
+    <div class="alert alert-secondary  w-50 text-center" role="alert" style="margin: auto !important">
         Uploaded ${dataBase.photos.length} images
     </div>`
     setTimeout(()=>{
